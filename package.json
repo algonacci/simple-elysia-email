@@ -1,0 +1,17 @@
+{
+  "name": "elysia-email",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
